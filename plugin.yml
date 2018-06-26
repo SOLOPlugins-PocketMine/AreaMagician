@@ -1,0 +1,14 @@
+name: AreaMagician
+version: 0.0.1
+author: solo
+main: solo\areamagician\AreaMagician
+api: [3.0.0, 3.1.0, 4.0.0]
+commands:
+  areamagician:
+    usage: '/areamagician'
+    description: 'AreaMagician command'
+    permission: areamagician
+
+permissions:
+  areamagician:
+    default: op
